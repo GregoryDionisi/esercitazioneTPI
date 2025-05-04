@@ -34,7 +34,7 @@ app.post('/products', (req, res) => {
   };
   
   products.push(newProduct);
-  res.status(201).json(newProduct);
+  res.status(201).json(newProduct); //lo rimanda indietro al frontend
 });
 
 // DELETE - Elimina un prodotto
